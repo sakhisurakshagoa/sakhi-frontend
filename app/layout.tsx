@@ -4,7 +4,7 @@ import "./globals.css";
 import { ReactNode, useState } from "react";
 import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
-
+import ChatbotButton from "./components/ChatbotButton";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -48,7 +48,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             </main>
 
           </div>
+          
         </div>
+        <ChatbotButton />
       </body>
     </html>
   );
