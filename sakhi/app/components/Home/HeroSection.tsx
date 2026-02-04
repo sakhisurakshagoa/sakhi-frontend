@@ -40,7 +40,7 @@ export default function HeroSection() {
             </Link>
           </div>
         </div>
-
+        
         {/* Image */}
         <div className="relative flex justify-center md:justify-end">
           <img
