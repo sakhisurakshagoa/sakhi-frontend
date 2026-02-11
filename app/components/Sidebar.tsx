@@ -76,11 +76,7 @@ export default function Sidebar({
             Home
           </Link>
 
-          <Link href="/Dashboard" className={`flex items-center gap-3 px-3 py-2 rounded-lg transition-all
-            ${pathname === "/Dashboard" ? "bg-gradient-to-r from-purple-500 to-teal-400 text-white" : "hover:text-purple-700"}`}>
-            <Squares2X2Icon className={`w-5 h-5 ${pathname === "/Dashboard" ? "text-white" : "text-purple-700"}`} />
-            Dashboard
-          </Link>
+          
 
           <Link href="/anonymous_complaint" className={`flex items-center gap-3 px-3 py-2 rounded-lg
             ${pathname === "/anonymous_complaint" ? "bg-gradient-to-r from-purple-500 to-teal-400 text-white font-semibold" : "hover:text-purple-700"}`}>
@@ -118,9 +114,9 @@ export default function Sidebar({
               Login
             </Link>
           ) : (
-            <Link href="/my-complaints" className={`flex items-center gap-3 px-3 py-2 rounded-lg
-              ${pathname === "/my-complaints" ? "bg-gradient-to-r from-purple-500 to-teal-400 text-white font-semibold" : "hover:text-purple-700"}`}>
-              <UserCircleIcon className={`w-5 h-5 ${pathname === "/my-complaints" ? "text-white" : "text-purple-700"}`} />
+            <Link href="/profile" className={`flex items-center gap-3 px-3 py-2 rounded-lg
+              ${pathname === "/profile" ? "bg-gradient-to-r from-purple-500 to-teal-400 text-white font-semibold" : "hover:text-purple-700"}`}>
+              <UserCircleIcon className={`w-5 h-5 ${pathname === "/profile" ? "text-white" : "text-purple-700"}`} />
               My Profile
             </Link>
           )}
