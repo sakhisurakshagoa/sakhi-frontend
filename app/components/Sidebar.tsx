@@ -88,9 +88,9 @@ export default function Sidebar({
             Emergency Contacts
           </Link>
 
-          <Link href="/locations" className={`flex items-center gap-3 px-3 py-2 rounded-lg
-            ${pathname === "/locations" ? "bg-gradient-to-r from-purple-500 to-teal-400 text-white font-semibold" : "hover:text-purple-700"}`}>
-            <MapPinIcon className={`w-5 h-5 ${pathname === "/locations" ? "text-white" : "text-purple-700"}`} />
+          <Link href="/essential_locations" className={`flex items-center gap-3 px-3 py-2 rounded-lg
+            ${pathname === "/essential_locations" ? "bg-gradient-to-r from-purple-500 to-teal-400 text-white font-semibold" : "hover:text-purple-700"}`}>
+            <MapPinIcon className={`w-5 h-5 ${pathname === "/essential_locations" ? "text-white" : "text-purple-700"}`} />
             Essential Locations
           </Link>
 
