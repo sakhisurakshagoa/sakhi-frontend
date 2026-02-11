@@ -76,17 +76,15 @@ export default function Sidebar({
             Home
           </Link>
 
-          
-
           <Link href="/anonymous_complaint" className={`flex items-center gap-3 px-3 py-2 rounded-lg
             ${pathname === "/anonymous_complaint" ? "bg-gradient-to-r from-purple-500 to-teal-400 text-white font-semibold" : "hover:text-purple-700"}`}>
             <ExclamationTriangleIcon className={`w-5 h-5 ${pathname === "/anonymous_complaint" ? "text-white" : "text-purple-700"}`} />
             File Complaint
           </Link>
 
-          <Link href="/emergency" className={`flex items-center gap-3 px-3 py-2 rounded-lg
-            ${pathname === "/emergency" ? "bg-gradient-to-r from-purple-500 to-teal-400 text-white font-semibold" : "hover:text-purple-700"}`}>
-            <PhoneIcon className={`w-5 h-5 ${pathname === "/emergency" ? "text-white" : "text-purple-700"}`} />
+          <Link href="/Emergency_contacts" className={`flex items-center gap-3 px-3 py-2 rounded-lg
+            ${pathname === "/Emergency_contacts" ? "bg-gradient-to-r from-purple-500 to-teal-400 text-white font-semibold" : "hover:text-purple-700"}`}>
+            <PhoneIcon className={`w-5 h-5 ${pathname === "/Emergency_contacts" ? "text-white" : "text-purple-700"}`} />
             Emergency Contacts
           </Link>
 
