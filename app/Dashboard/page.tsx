@@ -125,8 +125,8 @@ export default function DashboardPage() {
   );
 }
 
-/* ================= COMPONENTS ================= */
 
+// Reusable card component for quick actions on the dashboard
 function DashboardCard({
   title,
   description,
