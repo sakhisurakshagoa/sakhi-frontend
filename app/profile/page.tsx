@@ -13,7 +13,7 @@ import {
 
 /* ================= PAGE ================= */
 
-export default function DashboardPage() {
+export default function Profile() {
   return (
     <section className="w-full bg-gray-50 py-10 px-6 md:px-10">
       {/* Welcome */}
